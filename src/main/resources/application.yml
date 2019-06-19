@@ -1,0 +1,7 @@
+server:
+    port: 8888
+
+#日志配置
+logging:
+    pattern:
+        console: "%d-%msg%n"  #  控制台输出配置 %d: 日期， %msg: 信息 ，%n 换行
