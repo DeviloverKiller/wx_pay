@@ -50,7 +50,7 @@
         <!--滚动策略-->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--路径-->
-            <fileNamePattern>F://weixin_sell//log//error.%d.log</fileNamePattern>
+            <fileNamePattern>F://wx_pay//log//error.%d.log</fileNamePattern>
         </rollingPolicy>
     </appender>
     <!--表示根目录 意思所有日志都满足-->
